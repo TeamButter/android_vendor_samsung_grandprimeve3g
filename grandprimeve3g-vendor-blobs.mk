@@ -36,7 +36,7 @@ PROPRIETARY_FILES := \
     etc/wifi/bcmdhd_sta.bin \
     etc/wifi/nvram_mfg.txt \
     vendor/firmware/BCM43430A1_V0025.0070.hcd \
-    bin/rild \
+    bin/rild_sprd \
     bin/modemd \
     bin/nvitemd \
     bin/phoneserver \
@@ -68,17 +68,9 @@ PROPRIETARY_FILES := \
     lib/libomx_vpxdec_hw_sprd.so \
     lib/libomx_m4vh263dec_hw_sprd.so \
     lib/libomx_m4vh263enc_hw_sprd.so \
-    lib/libstagefrighthw.so \
-    lib/libstagefright_sprd_h264dec.so \
-    lib/libstagefright_sprd_h264enc.so \
-    lib/libstagefright_sprd_mpeg4dec.so \
-    lib/libstagefright_sprd_mpeg4enc.so \
-    lib/libstagefright_sprd_vpxdec.so \
-    lib/hw/camera.sc8830.so \
     lib/hw/gralloc.sc8830.so \
-    lib/hw/hwcomposer.sc8830.so \
+    lib/hw/camera.sc8830.so \
     lib/hw/sensors.sc8830.so \
-    lib/hw/sprd_gsp.sc8830.so \
     lib/libyasalgo.so
 
 PRODUCT_COPY_FILES += \
